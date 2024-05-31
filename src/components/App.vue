@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-4">
     <div v-for="c in counters" class="row d-flex align-items-center py-2 px-2">
       <div class="col-5">
         {{ c.label }}
