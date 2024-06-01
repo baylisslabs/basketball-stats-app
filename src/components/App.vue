@@ -8,7 +8,7 @@
         <button class="btn btn-primary" @click="increment(c)">+1</button>
       </div>
       <div class="col-2">
-        <button class="btn btn-danger mx-2" @click="decrement(c)">-1</button>
+        <button class="btn btn-secondary mx-2" @click="decrement(c)">-1</button>
       </div>
       <div class="col d-flex justify-content-end">
         {{ c.value }}
