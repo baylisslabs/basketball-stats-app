@@ -97,7 +97,7 @@ export default {
         //{ "label": "Screens", value: 0 },
         { "label": "Rebounds", value: 0 },
         { "label": "Outlet Pass", value: 0 },
-        { "label": "Steals", value: 0 },
+        { "label": "Steal / Intercepts", value: 0 },
         { "label": "Block(no foul)", value: 0 },
         { "label": "Shot Attempt\n(In the paint)", value: 0 },
       ];
