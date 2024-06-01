@@ -6,6 +6,7 @@
     "prebuild": "rm -rf dist",
     "build": "parcel build src/index.html --public-url ./ --dist-dir dist --no-source-maps",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],

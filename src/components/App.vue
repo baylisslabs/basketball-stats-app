@@ -94,7 +94,7 @@ export default {
     clear() {
       localStorage.removeItem(storageKey);
       this.counters = [
-        { "label": "Screens", value: 0 },
+        //{ "label": "Screens", value: 0 },
         { "label": "Rebounds", value: 0 },
         { "label": "Outlet Pass", value: 0 },
         { "label": "Steals", value: 0 },
