@@ -114,16 +114,16 @@ const points = computed(() => (counters) => {
             as="button"
             :options="{ delay: 1000, onMouseUp: (_,__,lp) => !lp ? updateMade(index, 1) : null }"
             class="btn btn-primary"
-            @trigger="updateMade(index, -1)">Made</OnLongPress>
+            @trigger="updateMade(index, -1)">+1</OnLongPress>
         </div>
         <div class="col-2">
           <OnLongPress
             as="button"
             :options="{ delay: 1000, onMouseUp: (_,__,lp) => !lp ? updateMissed(index, 1) : null }"
             class="btn btn-danger"
-            @trigger="updateMissed(index, -1)">Missed</OnLongPress>
+            @trigger="updateMissed(index, -1)">Ø</OnLongPress>
         </div>
-        <div class="col d-flex justify-content-end mx-3">
+        <div class="col d-flex justify-content-end">
           {{ item.made }} / {{ item.attempted }}
         </div>
       </template>
